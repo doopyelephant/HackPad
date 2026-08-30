@@ -31,6 +31,8 @@ Thats it for now!
 - 16x Cherry MX Switches
 - 1x XIAO RP2040
 - 1x Case (2 Printed Parts)
+
+  **Already Obtained:**
 - 1x 12 pin FFC connector (I salvaged this from the main PCB on the same broken keyboard mentioned below)
 - 1x ELAN CK77 Touchpad (I already Salvaged this from a broken keyboard, you might be able to find one to, they are pretty old and are in various things, mine was designed in 2007)
 ![TouchPad](TouchPad.jpg)
