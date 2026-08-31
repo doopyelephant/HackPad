@@ -9,12 +9,13 @@ It all fits together with 4x M3x16mm screws, one in each corner of the case to c
 ![Case Render](CaseRender.PNG)
 ## PCB:
 This is the PCB! It has the microcontroller along with 16 key switches in a matrix. 
-![PCB Render](PCBRender.png)
+<img width="1307" height="833" alt="Screenshot 2026-08-31 081755" src="https://github.com/user-attachments/assets/95bb8834-d2dc-4583-84df-26f9fe71fb38" />
+
 Aswell as a place to solder on the 12 pin FFC(Flat Flexible Connecter) that connects to the touchpad. The pinout of the touchpad was reverse engineered with a multimeter and a few partial labels on the donor board, I believe the touchpad uses the PS/2 protocol(the circular mouse port from the 90s) with a few modifications:
 
 -  FFC instead of circular port
 - The Two extra pins in the spec are used to relay LB and RB through the touchpad like: LB & RB -> Touchpad -> SOC
-
+![PCB Render](PCBRender.png)
 ![Pin Out](PinOut.jpg)
 ## Firmware
 This Hackpad uses QMK (QMK suprisingly has support for PS/2! )
